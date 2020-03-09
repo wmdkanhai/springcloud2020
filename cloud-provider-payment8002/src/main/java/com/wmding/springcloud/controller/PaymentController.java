@@ -29,7 +29,7 @@ public class PaymentController {
     @PostMapping("payment/create")
     public CommonResult paymentCreate(@RequestBody Payment payment) {
 
-        if (StringUtils.isEmpty(payment.getSerial())){
+        if (StringUtils.isEmpty(payment.getSerial())) {
             return new CommonResult(500, "参数为空");
         }
         int i = paymentService.create(payment);
