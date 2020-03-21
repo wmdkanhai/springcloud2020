@@ -10,3 +10,7 @@ SpringCloud学习记录
 
 - 将 cloud-providerconsul-payment8006 注册到 Consul 上，提供服务
 - 将 cloud-consumerconsul-order80 注册到 Consul 上，去消费服务
+
+- 将cloudalibaba-provider-payment9001 注册到 nacos 上，提供服务
+- 将cloudalibaba-consumer-nacos-order83 注册到 nacos 上，去消费服务
+- cloudalibaba-config-nacos-client3377 中读取 nacos 上的配置文件信息
